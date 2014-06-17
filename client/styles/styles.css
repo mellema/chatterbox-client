@@ -82,8 +82,36 @@ form input[type=text] {
 .spinner img {
     padding: 10px;
 }
+#main{
+    display: inline-block;
+}
 .username{
-    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.sidebar{
+    position: absolute;
+    left: 1400px;
+    top: 200px;
+    display: block;
+    float: right;
+}
+
+.sidebar#friends{
+    display: block;
+    position: fixed;
+}
+#roomInput{
+    position: absolute;
+    left: 150px;
+    top: 85px;
+}
+.roomSubmit{
+
+    position: absolute;
+    left: 250px;
+    top: 95px;
 }
 
 
